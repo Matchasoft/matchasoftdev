@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My code */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+
+.flex_grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.col-1 {
+    background-color: #95CD8B;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 16;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #95CD8B;
+    flex: 2;
+}
+
+#matcha_logo {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-left: %;
+    flex: 1;
+}
+
+.social_media {
+    display: inline-flex;
+    flex-direction: colum;
+    flex: 1;
+}
+
+ul {
+    display: inline-flex;
+    margin: auto;
+    width: 100%;
+    background-color: #C6DD7D;
+}
+
+ul li {
+    display: inline-flex;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3em;
+/*    padding: 0.2vw 5vw;*/
+}
+
+ul li:hover {
+    background-color: #95CD8B;
+}
+
+#facebook {
+    width: 5%;
+    height: 5%;
+}
+
+#twitter {
+    width: 5%;
+    height: 5%;
+}
+
+#facebook img {
+    width: 100%;
+}
+
+#twitter img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    height: 100%;
+}
+
+footer div {
+    margin: auto;
+    color: #FFFFFF;
+}
