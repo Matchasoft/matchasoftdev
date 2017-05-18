@@ -76,7 +76,7 @@ av_closeModal = function() {
 };
 
 av_showRegret = function() {
-    window.location.replace("https://www.google.com/search?q=cute+anime+girls&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjnupGowPnTAhXFhJAKHXrtDRYQ_AUICigB&biw=1920&bih=974");
+    window.location.replace("https://www.google.com/search?q=cute+anime+girls&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjtq_vY1PnTAhXLh5AKHW_HDM8Q_AUIBigB&biw=1366&bih=662");
 	modal_screen.addClass('nope');
 	modal_content.find('#modal_content_wrapper').hide();
 	modal_content.find('#modal_regret_wrapper').show();
