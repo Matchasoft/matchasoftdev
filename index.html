@@ -1,0 +1,89 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+    <head>
+        <title>Matchasoft Official Website</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Matchasoft Official Website">
+        <meta name="keywords" content="VN, Visual Novel, Matchasoft">
+        <meta name="author" content="Renan Martineli de Paula">
+        <link href="css/age-verification.css" rel="stylesheet"/>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="js/age-verification.js"></script>
+        <link rel="stylesheet" href="css/w3.css"/>
+        <link rel="stylesheet" href="css/w3-theme-light-green.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <header id="home" class="w3-container w3-theme w3-center">
+            <img id="matcha_logo" src="images/matchasoft_logo.png" alt="Matchasoft logo"/>
+            <a href="https://www.patreon.com/matchasoftdev" target="_blank"><img id="patreon" class="w3-image w3-right" src="images/patreon_logo.png" alt="Patreon logo"/></a>
+            <a href="https://www.twitter.com/matchasoftdev" target="_blank"><img id="twitter" class="w3-image w3-right w3-margin-right" src="images/twitter_logo.png" alt="Twitter logo"/></a>
+        </header>
+        <nav id="nav_img" class="fa fa-bars w3-top w3-xxxlarge w3-opacity w3-hover-opacity-off w3-dropdown-hover w3-row w3-hide-large">
+            <nav id="nav_dropdown" class="w3-bar w3-theme-l2 w3-center w3-xlarge w3-hover-opacity-off w3-dropdown-content">
+                <a href="#home" id="home_link" class="w3-bar-item w3-button w3-hover-theme w3-border-bottom w3-col s12">Home</a>
+                <a href="#games" id="games_link" class="w3-bar-item w3-button w3-hover-theme w3-border-bottom w3-col s12">Games</a>
+                <a href="#about" id="about_link" class="w3-bar-item w3-button w3-hover-theme w3-border-bottom w3-col s12">About</a>
+                <a href="#contact" id="contact_link" class="w3-bar-item w3-button w3-hover-theme w3-col s12">Contact</a>
+            </nav>
+        </nav>
+        <nav class="w3-bar w3-theme-l2 w3-center w3-top w3-opacity w3-hover-opacity-off w3-hide-small w3-hide-medium">
+            <a href="#home" id="home_link" class="w3-bar-item w3-button w3-hover-theme w3-border-right w3-col l3 m3 s3">Home</a>
+            <a href="#games" id="games_link" class="w3-bar-item w3-button w3-hover-theme w3-border-right w3-col l3 m3 s3">Games</a>
+            <a href="#about" id="about_link" class="w3-bar-item w3-button w3-hover-theme w3-border-right w3-col l3 m3 s3">About</a>
+            <a href="#contact" id="contact_link" class="w3-bar-item w3-button w3-hover-theme w3-col l3 s3">Contact</a>
+        </nav>      
+        <div id="announcements_banner" class="w3-center w3-theme-l4 w3-xxlarge">Announcements</div>
+        <div id="announcements" class="w3-container w3-row w3-theme-d5">
+            <iframe id="news_frame" class="w3-col l5 w3-cell w3-image w3-section w3-opacity-min w3-border-0" src="news.html">
+            </iframe>
+            <iframe id="twitter_frame" class="w3-col l5 w3-cell w3-right w3-section w3-image w3-opacity-min w3-border-0" src="twitter.html">
+            </iframe>
+        </div>
+        <div id="games_banner" class="w3-center w3-theme-l4 w3-xxlarge">Games</div>
+        <div id="games" class="w3-container w3-theme-d5">
+            <div id="modal_games" class="w3-card-4 w3-content w3-section">
+                <a href="hardwork.html" id="hardwork_link" target="_blank">
+                    <img id="hardwork_avatar" src="images/hardwork_avatar.jpg" alt="Hardwork Logo" class=""/>
+                    <div class="w3-center w3-white">
+                        <ul class="w3-ul w3-small">
+                            <li>Title: Hard Work</li>
+                            <li>Tags: Comedy, Office Environment, Light-Hearted</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="about_banner" class="w3-center w3-theme-l4 w3-xxlarge">About Matchasoft</div>
+        <div id="about" class="w3-container w3-row w3-theme-d5">
+            <div class="w3-col l5 w3-cell w3-section">
+                <p class="w3-justify">Matchasoft is a small devteam devoted to bringing you high-quality 18+ content. We pride ourselves on efficiency, lovable characters (both literally and figuratively), and not cutting any corners on our way to making games that we hope everyone will enjoy. Our first and current project is Hard Work, a light-hearted story set in an office environment.</p>
+            </div>
+            <div class="w3-col l5 w3-cell w3-right w3-image w3-section w3-center">
+                <p>Support us on Patreon:</p>
+                <a href="https://www.patreon.com/matchasoftdev" target="_blank"><img id="patreon_banner" src="images/patreon_banner.png" alt="Patreon Banner"/></a>
+            </div>
+        </div>
+        <div id="contact_banner" class="w3-center w3-theme-l4 w3-xxlarge">Contact</div>
+        <div class="w3-theme-d5">
+            <form id="contact" class="w3-container w3-padding-16 w3-content" action="https://formspree.io/matchasoftofficial@gmail.com"
+      method="POST">
+                <input class="w3-input" type="text" name="name" placeholder="Name" required="required"/>
+                <input class="w3-input" type="text" name="email" placeholder="Email" required="required"/>
+                <input class="w3-input" type="text" name="_subject" placeholder="Subject" required="required"/>
+                <textarea class="w3-input" id="textarea" name="message" type="textarea" placeholder="Message" cols="10" rows="5" required="required"></textarea>
+                <input class="w3-input w3-button w3-white w3-col l5" type="button" name="send" type="submit" value="Send">
+                <input class="w3-input w3-button w3-white w3-col l5 w3-right" type="button" name="reset" type="reset" value="Reset">
+            </form>
+        </div>
+        <footer class="w3-container w3-theme w3-center">
+            <p>@2017 Matchasoft all rights reserved.</p>
+            <p>Website Owned and Operated by Matchasoft, LLC</p>
+            <p>Website Designed & Developed by Renan Martineli de Paula</p>
+        </footer>
+    </body>
+</html>
