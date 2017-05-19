@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#matcha_logo {
+/*    width: 50%;*/
+}
+
+#patreon {
+}
+
+#twitter {
+}
+
+
+/*
+
+#home_link {
+    width: 25%;
+}
+
+#games_link {
+    width: 25%;
+}
+
+#about_link {
+    width: 25%;
+}
+
+#contact_link {
+    width: 25%;
+}
+
+*/
+
+
+#announcements {
+    height: 100%;
+    width: 100%;
+}
+
+#twitter_frame {
+    height: 50vh;
+}
+
+#news_frame {
+    background-color: #FFFFFF;
+    height: 50vh;
+}
+
+#patreon_banner {
+    background-color: #FFFFFF;
+}
+
+#hardwork_avatar {
+/*    width: 50vw;*/
+}
+
+#modal_games {
+/*    width: 50vw;*/
+}
+
+#hardwork_link {
+    text-decoration: none;
+}
+
+#contact {
+    width: 100%;
+}
+
+form input {
+    margin-top: 16px;
+}
+
+textarea {
+    margin-top: 16px;
+}
+
+form input:first-child {
+    margin-top: 0px;
+}
+
+
+#nav_img {
+    width: auto;
+}
+
+#nav_dropdown {
+    width: 100vw;
+}
