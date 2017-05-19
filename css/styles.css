@@ -3,16 +3,13 @@ body {
 }
 
 #matcha_logo {
-    height: 50%;
-    width: 50%;
+/*    width: 50%;*/
 }
 
 #patreon {
-    width: 4%;
 }
 
 #twitter {
-    width: 4%;
 }
 
 
@@ -38,13 +35,8 @@ body {
 
 
 #announcements {
-/*    background-image: url(/images/office_industricorp.jpg);*/
     height: 100%;
     width: 100%;
-}
-
-#games {
-/*    background-image: url(/images/exterior_industricorp.jpg);*/
 }
 
 #twitter_frame {
@@ -57,17 +49,15 @@ body {
 }
 
 #patreon_banner {
-    width: 100%;
-    height: ;
     background-color: #FFFFFF;
 }
 
 #hardwork_avatar {
-    width: 100%;
+/*    width: 50vw;*/
 }
 
 #modal_games {
-    width: 30%;
+/*    width: 50vw;*/
 }
 
 #hardwork_link {
